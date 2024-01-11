@@ -1,0 +1,124 @@
+{
+    "filters": {
+        "Gender": [
+            {
+                "name": "Male",
+                "value": "male",
+                "product_specs_name": "gender"
+            },
+            {
+                "name": "Female",
+                "value": "female",
+                "product_specs_name": "gender"
+            }
+        ],
+        "Top Brands": [
+            {
+                "name": "Levis",
+                "value": "levis",
+                "product_specs_name": "name"
+            },
+            {
+                "name": "Zara",
+                "value": "zara",
+                "product_specs_name": "name"
+            },
+            {
+                "name": "NetPlay",
+                "value": "netplay",
+                "product_specs_name": "name"
+            },
+            {
+                "name": "Monte Carlo",
+                "value": "monte carlo",
+                "product_specs_name": "name"
+            },
+            {
+                "name": "Team Spirit",
+                "value": "team spirit",
+                "product_specs_name": "name"
+            },
+            {
+                "name": "Red Tape",
+                "value": "red tape",
+                "product_specs_name": "name"
+            },
+            {
+                "name":"BIBA",
+                "value":"biba",
+                "product_specs_name":"name"
+            }
+        ],
+        "Category": [
+            {
+                "name": "Formal",
+                "value": "formal",
+                "product_specs_name": "category"
+            },
+            {
+                "name": "Ethnic",
+                "value": "ethnic",
+                "product_specs_name": "category"
+            },
+            {
+                "name": "Western",
+                "value": "western",
+                "product_specs_name": "category"
+            },
+            {
+                "name": "Casual",
+                "value": "casual",
+                "product_specs_name": "category"
+            }
+        ],
+        "Price": [
+            {
+                "name": "0-2000",
+                "value": "0-2000",
+                "product_specs_name": "price"
+            },
+            {
+                "name": "2000-5000",
+                "value": "2000-5000",
+                "product_specs_name": "price"
+            },
+            {
+                "name": "5000-8000",
+                "value": "5000-8000",
+                "product_specs_name": "price"
+            },
+            {
+                "name": "Above 8000",
+                "value": "above 8000",
+                "product_specs_name": "price"
+            }
+        ],
+        "Color": [
+            {
+                "name": "White",
+                "value": "white",
+                "product_specs_name": "color"
+            },
+            {
+                "name": "Orange",
+                "value": "orange",
+                "product_specs_name": "color"
+            },
+            {
+                "name": "Pink",
+                "value": "pink",
+                "product_specs_name": "color"
+            },
+            {
+                "name": "Black",
+                "value": "black",
+                "product_specs_name": "color"
+            },
+            {
+                "name": "Blue",
+                "value": "blue",
+                "product_specs_name": "color"
+            }
+        ]
+    }
+}

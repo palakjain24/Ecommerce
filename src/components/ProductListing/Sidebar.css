@@ -1,0 +1,18 @@
+.filters {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px 12px;
+    gap: 0.3rem;
+    font-size: 16px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    /* font-weight: 500; */
+}
+
+.filters > h3 {
+    /* color: #243493; */
+    color: #1169da;
+}
+
+.filters > label {
+    cursor: pointer;
+}

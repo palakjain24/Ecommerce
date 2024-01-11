@@ -1,0 +1,84 @@
+.cart {
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 40px;
+    overflow-x: auto;
+    margin: 0 25px;
+    gap: 1rem; */
+
+    padding: 2.5rem 2rem 2.5rem 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
+    gap: 1.25rem;
+}
+
+.cart-item {
+    margin: 10px 0;
+}
+
+.cart-item-img {
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+}
+
+.cart-item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cart-item-remove>button {
+    margin-top: 5px;
+    background-color: #e02727;
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-item-name {
+    padding: 5px 0;
+    margin-left: 5px;
+}
+
+.cart-item-price {
+    padding: 5px 0;
+    margin-left: 5px;
+}
+
+.cart-item-size {
+    padding: 5px 0;
+    margin-left: 5px;
+}
+
+.cart-item-quantity {
+    padding: 5px 0;
+    margin-left: 5px;
+}
+
+.cart-item-proceed>button {
+    margin-top: 5px;
+    background-color: #0fa959;
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-row {
+    padding: 15px 13px;
+    background-color: #ececec;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
